@@ -141,6 +141,10 @@ creates JSON messages, and the transport plugin which pushes the
 messages by one of possible methods (such as ZMQ or Apache Kafka, or
 probably directly into ScyllaDB).
 
+Also the new plugin should keep the latest processed block number in
+chainbase, in order to handle the forks more reliably after `nodeos`
+restart.
+
 ### ScyllaDB database schema and testing: 40 hours
 
 ScyllaDB (as well as Cassandra) has an SQL-like syntax, but the tables
