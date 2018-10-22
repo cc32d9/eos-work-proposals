@@ -10,7 +10,8 @@ experience in software and network engineering. I'm quite active in
 open-source software development under my real name, and all public
 activity related to EOS is done under a nickname `cc32d9`, which is the
 beginning of sha256 from my real name. Investors of this project will
-know me by real name.
+know me by real name. I am owning a consultancy company in Europe, and
+all payments will be done with proper accounting and taxation.
 
 As of today, there is no reliable and scalable solution for account
 history in EOS blockchain.
@@ -108,8 +109,7 @@ storage for all blockchain and accounts history.
 Apache Kafka is a powerful and flexible message queue, and it allows
 storing the whole volume of events on a filesystem, allowing the
 consumers read from any position in the past. Very likely it would also
-prevent from loss of messages during during the service shutdown or
-restart.
+prevent from loss of messages during the service shutdown or restart.
 
 Once the storage and data delivery is resolved, a number of APIs and web
 services need to be built in order to allow external users retrieve the
