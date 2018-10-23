@@ -40,6 +40,16 @@ shutdown.
 
 
 
+## Scope of the work proposal
+
+This work proposal aims to deliver free and open-source tools and
+scripts, accompanied with detailed installation instructions.
+
+Building a production service infrastructure is not covered in this
+proposal.
+
+
+
 ## Functional requirements
 
 The new history database should deliver quick results for the following
@@ -74,6 +84,15 @@ types of queries:
   95th percentile of balances).
 
 * (probably) retrieve a history of RAM allocations for an account.
+
+* Producer voting statistics: detailed voting history per voter, per BP,
+  and per proxy, as well as summary reports (top voter lists etc.).
+
+* Name bidding history and current status (active and expired bids).
+
+* RAM allocation statistics.
+
+
 
 In addition, the database API should allow subscriptions to certain
 events, such as all actions for a given account. It should also be
