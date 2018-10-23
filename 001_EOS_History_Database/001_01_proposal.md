@@ -200,7 +200,9 @@ is to have one API standard that users can rely upon.
 ### Hosting costs
 
 Hosting of physical and virtual servers needed for development and
-testing is estimated as US$2000, or 360 EOS.
+testing is estimated as US$2000, or 360 EOS. Once the development is
+complete, these servers would either be scrapped, or turned into
+production systems if a follow-up project decides so.
 
 
 ### Total
