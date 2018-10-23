@@ -164,6 +164,10 @@ Also the new plugin should keep the latest processed block number in
 chainbase, in order to handle the forks more reliably after `nodeos`
 restart.
 
+Block One is developing a new `state_history_pugin`, and it will likely
+be added as a complimentary or alternative source of data flow. This
+needs to be investigated as part of RnD work.
+
 ### ScyllaDB database schema and testing: 40 hours
 
 ScyllaDB (as well as Cassandra) has an SQL-like syntax, but the tables
