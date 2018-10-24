@@ -214,9 +214,14 @@ whole budget is estimated as 5610 EOS.
 
 ## Delivery and payments
 
-The budgeted sum would be placed onto a multi-signature account that
-requires at least 3 signatures to initiate a transfer. Only the sponsors
-would have the power of signing.
+The deatline for fixing the list of sponsors is Monday, 29 October 2018
+00:00 UTC: https://bit.ly/2D2eP1c . Up to now, 6 sponsors have confirmed
+and 2 more are in discussions.
+
+The total budget will be equally split among the sponsors, and they will
+place the deposits onto a multi-signature account that requires at least
+3 signatures to initiate a transfer. Only the sponsors would have the
+power of signing.
 
 At the end of each stage I shall initiate an invoice with a detailed
 time sheet, and continue working on the next stage after the payment is
