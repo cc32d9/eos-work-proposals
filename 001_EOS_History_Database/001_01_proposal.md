@@ -79,6 +79,9 @@ types of queries:
   and/or minimum amount (in order to filter out transfers of 0.0001
   EOS).
 
+* Retrieve all current public keys for an account; Retrieve all accounts
+  linked to a public key.
+
 * For a given currency, retrieve the number of accounts and sum of all
   balances (and possibly other information, such as average balance or
   95th percentile of balances).
@@ -92,7 +95,7 @@ types of queries:
 
 * RAM allocation statistics.
 
-
+* (needs researching) Retrieve pending transactions for an account.
 
 In addition, the database API should allow subscriptions to certain
 events, such as all actions for a given account. It should also be
