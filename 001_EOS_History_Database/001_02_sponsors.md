@@ -11,7 +11,7 @@ listed below in the order of sending their confirmations.
 mainnet. Their BP account names are listed, accordingly.
 
 Two EOS sister chains are contributing to the project: WORBLI launching
-their own network, and GoodBlock being a BP candidate for TELOS network.
+their own network, and GoodBlock as a BP candidate for Telos.
 
 * EOS Tribe (`eostribeprod`) https://eostribe.io/
 
