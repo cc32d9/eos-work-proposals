@@ -34,6 +34,12 @@ CREATE MATERIALIZED VIEW receiver_bloks AS
 
 ```
 
+Due to the way ScyllaDB stores its data
+(https://github.com/scylladb/scylla/issues/4484), a new table is needed
+for keeping the first and last ocurrence of data and total count of
+actions for each recipient.
+
+
 ## JSON traces
 
 The database keeps fill JSON traces of all transactions for N days, and deletes old records:
